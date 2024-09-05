@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('myriadpro-font/MyriadPro-Light.otf');
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    background-color: #ffffff;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 400px;
+}
+
+header .container a {
+    text-decoration: none;
+    color: #16a085;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+header {
+    max-height: 80px;
+    height: 80px;
+}
+
+.main-container {
+    justify-content: center;
+    margin: 0 320px;
+    max-width: 1280px;
+    width: 100%;
+}
+
+section .main-image {
+    justify-content: center;
+}
+
+section {
+    display: block;
+    background-color: #f5f6f7;
+    padding-bottom: 40px;
+}
+
+section .text-content {
+    margin: 0 120px;
+}
+
+section p.text, p.contents {
+    text-align: center;
+}
+
+p.contents {
+    font-size: 20px;
+    font-family: 'Myriad Pro';
+}
+
+p.text {
+    font-size: 15px;
+    font-family: 'Myriad Pro';
+    font-weight:300;
+}
+
+section .div-text {
+    margin: 40px 0;
+}
+
+section .buttons {
+    justify-content: center;
+}
+
+section .buttons input[type="button"] {
+    background-color: #16a085;
+    border-radius: 2px;
+    border: 20px solid #16a085;
+    color: #ffffff;
+    font-size: 12px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+section .buttons input[type="button"]:hover {
+    cursor: pointer;
+}
+
+footer {
+    max-height: 110px;
+    height: 100%;
+}
+
+footer .copyright {
+    justify-content: right;
+    margin-right: 100px;
+}
+
+footer .copyright p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
