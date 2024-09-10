@@ -59,13 +59,23 @@ header .contacts .contacts-text p {
 }
 
 section .item-container {
-    flex-wrap: wrap;
+    margin: 0;
+    text-align: center;
 }
 
 section .item-container .items {
     margin: 0;
     margin-bottom: 55px;
     max-width: 308px;
+    display: inline-block;
+}
+
+.align-float-left {
+    float: left;
+}
+
+.align-float-right {
+    float: right;
 }
 
 section .item-container .items p.image-sign {
@@ -98,7 +108,7 @@ section .items .image-includes .info {
     width: 100%;
     height: 63px;
     bottom: -63px;
-    transition: bottom 0.1s ease; /* Плавное появление */
+    transition: bottom 0.1s ease;
 }
 
 section .items:hover .image-includes .info {
