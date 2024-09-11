@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url("fonts/open-sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url("fonts/open-sans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url("fonts/open-sans/OpenSans-SemiBold.ttf");
+}
+
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("fonts/roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url("fonts/roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url("fonts/roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url("fonts/roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-BT-Bold';
+    src: url('fonts/futura/futuramdbt_bold.otf');
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 260px;
+}
+
+.white-triangle::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 70px solid transparent;
+    border-right: 50vw solid white;
+    z-index: 0;
+}
+
+.white-triangle::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;	
+    border-top: 70px solid transparent;
+    border-left: 50vw solid white; 
+}

@@ -1,0 +1,51 @@
+header .head-container {
+    background-image: url('images/bg1.jpg');
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+header .head-container .header-title {
+    background-color: white;
+    margin-top: 32px;
+    position: absolute;
+    width: 100%;
+}
+
+header .head-container .header-title .header-content {
+    padding: 0 200px;
+    z-index: 1;
+}
+
+header .head-container .header-title .header-content .logo p {
+    font-size: 36px;
+}
+
+.logo .light-font {
+    font-family: 'Roboto-Light';
+    color: #394E57;
+}
+
+.logo .bold-font {
+    font-family: 'Roboto-Black';
+    color: #00B0CC;
+}
+
+header .head-container .header-title .header-content .navigation-links {
+    gap: 56px;
+}
+
+header .head-container .header-title .header-content .navigation-links a {
+    text-decoration: none;
+    color: #344B4D;
+    font-size: 15px;
+    font-family: 'OpenSans-Bold';
+}
+
+header .head-container .header-title .header-content .navigation-links a:hover {
+    color: #00B0CC;
+}
+
+header .head-container .header-main {
+    position: absolute;
+}
