@@ -23,6 +23,15 @@ body {
     src: url("fonts/open-sans/OpenSans-SemiBold.ttf");
 }
 
+@font-face {
+    font-family: 'OpenSans-Italic';
+    src: url("fonts/open-sans/OpenSans-Italic.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold-Italic';
+    src: url("fonts/open-sans/OpenSans-SemiBoldItalic.ttf");
+}
 
 @font-face {
     font-family: 'Roboto-Regular';
@@ -66,25 +75,18 @@ body {
     margin: 0 260px;
 }
 
-.white-triangle::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-top: 70px solid transparent;
-    border-right: 50vw solid white;
-    z-index: 0;
+.title-text {
+    font-family: 'Roboto-Bold';
+    font-size: 60px;
+    color: #00B1CC;
+    margin: 0px;
+    margin-bottom: 6px;
 }
 
-.white-triangle::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 0;	
-    border-top: 70px solid transparent;
-    border-left: 50vw solid white; 
+.secondary-title-text {
+    font-family: 'OpenSans-Semibold';
+    font-size: 18px;
+    color: #394E57;
+    margin: 0px;
+    margin-bottom: 42px;
 }

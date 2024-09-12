@@ -1,0 +1,18 @@
+section .why-section .container {
+    padding: 115px 200px;
+    text-align: center;
+}
+
+section .why-section .container .why-content {
+    justify-content: center;
+}
+
+section .why-section .container .why-content p {
+    font-family: 'Roboto-Bold';
+    font-size: 30px;
+    color: #394E57;
+    width: 770px;
+    margin: 0;
+    margin-top: 13px;
+    line-height: 1.8;
+}

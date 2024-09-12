@@ -1,14 +1,15 @@
 header .head-container {
-    background-image: url('images/bg1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bg1.jpg');
     height: 600px;
     position: relative;
     overflow: hidden;
+    clip-path: polygon(50% 100%, 100% 90%, 100% 0, 0 0, 0 90%);
+    padding-top: 32px;
 }
 
 header .head-container .header-title {
     background-color: white;
-    margin-top: 32px;
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 
@@ -20,6 +21,7 @@ header .head-container .header-title .header-content {
 header .head-container .header-title .header-content .logo p {
     font-size: 36px;
 }
+
 
 .logo .light-font {
     font-family: 'Roboto-Light';
@@ -47,5 +49,23 @@ header .head-container .header-title .header-content .navigation-links a:hover {
 }
 
 header .head-container .header-main {
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .head-container .header-main p {
+    font-family: 'Futura-BT-Bold';
+    font-size: 52px;
+    color: white;
+}
+
+header .content {
     position: absolute;
+    width: 100%;
+    height: calc(100% - 32px);
+    top: 32px;
+    flex-direction: column;
 }

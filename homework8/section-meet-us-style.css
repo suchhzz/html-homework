@@ -1,0 +1,18 @@
+section .meet-us-section .container {
+    text-align: center;
+    padding: 0 200px;
+    padding-top: 94px;
+    padding-bottom: 120px;
+}
+
+section .meet-us-section .container .meet-us-content {
+    gap: 89px;
+}
+
+section .meet-us-section .container .meet-us-content .person-content p {
+    font-family: 'Roboto-Regular';
+    font-size: 15px;
+    color: #394E57;
+    width: 280px;
+    line-height: 1.6;
+}

@@ -1,0 +1,30 @@
+section .companies-section {
+    clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('images/bg2.jpg');
+    height: 715px;
+}
+
+section .companies-section .container {
+    text-align: center;
+    padding: 0 200px;
+    padding-top: 120px;
+    padding-bottom: 165px;
+}
+
+section .companies-section .container .title .secondary-title-text {
+    color: white;
+}
+
+section .companies-section .container .companies-content {
+    margin-top: 49px;
+    flex-wrap: wrap;
+    column-gap: 56px;
+    row-gap: 120px;
+}
+
+section .companies-section .container .companies-content .adobe {
+    width: 222px;
+    height: 96px;
+    background-color: white;
+    justify-content: center;
+}
